@@ -23,7 +23,7 @@ body {
     background-color: #0f172a; 
     line-height: 1.6;
     overflow-x: hidden;
-    color: var(--text);
+    color: var(--text);    
 }
 
 .grid-bg {
@@ -62,7 +62,7 @@ body {
 .nav-link {
     height: 80px;
     width: 400px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);    
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -71,7 +71,7 @@ body {
 .btn-nav {    
     font-size: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     height: 30px;
     width: 80px;
     text-align: center;
@@ -82,7 +82,7 @@ body {
     align-items: center;    
     height: 100vh;
     width: 1200px;    
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);  
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);  
     text-align: center;
     gap: 100px;
      
@@ -93,7 +93,7 @@ body {
     height: 100vh;   
     width: 100%; 
     margin-left: auto; /* Define a margem esquerda automática */
-    margin-right: auto;   
+    margin-right: auto;  
     background-color: rgba(211, 211, 211, 0);
     display: flex;
     justify-content: center;
@@ -106,19 +106,19 @@ body {
 .titulo-inicio {
     width: 700px;
     height: 525px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     
 }
 
 .titulo-inicio h1 {
     font-size: 40px;
     text-transform: uppercase;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 .titulo-inicio p {
     font-size: 20px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -127,7 +127,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     width: 700px;	   
     padding-top: 30px; 
     padding-bottom: 30px;
@@ -141,7 +141,7 @@ body {
     align-content: center;
     justify-content: center;
     font-size: 12px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);    
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);    
 }
 
 .skill-span:hover{
@@ -156,14 +156,14 @@ body {
     align-content: center;
     justify-content: center;
     gap: 30px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 .btn-contato-inicio {
     height: 50px;
     width: 150px;
     font-size: 16px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     border-radius: 10px;    
 }
 
@@ -176,7 +176,7 @@ body {
     height: 50px;
     width: 150px;
     font-size: 16px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     border-radius: 10px;    
 }
 
@@ -188,7 +188,7 @@ body {
 .card-inicio {
     width: 300px;
     height: 350px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     animation: float 6s ease-in-out infinite;
 }
 
@@ -200,13 +200,13 @@ body {
 
 .card-inicio h1 {
     font-size: 25px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     
 }
 
 .txt-card {
     font-size: 15px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     padding-top: 15px;
     padding-bottom: 15px;
 
@@ -221,7 +221,7 @@ body {
 .email {
     margin-left: 10px;
     font-size: 20px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     align-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -230,7 +230,7 @@ body {
 .email-inicio p {
     margin-left: 10px;
     font-size: 15px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     align-content: center;
 }
 
@@ -242,7 +242,7 @@ body {
 .telefone {
     margin-left: 10px;
     font-size: 20px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     align-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -251,6 +251,117 @@ body {
 .tel-inicio p {
     margin-left: 10px;
     font-size: 15px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     align-content: center;
+}
+
+.sobre {
+    max-width: 1200px;
+    height: 100vh;   
+    width: 100vw; 
+    margin-left: auto; /* Define a margem esquerda automática */
+    margin-right: auto;   
+    background-color: rgba(211, 211, 211, 0);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+}
+
+.titulo-sobre {
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.container-sobre {
+    display: flex;
+    gap: 100px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);  
+
+}
+
+.txt-sobre {
+    width: 700px;
+    height: 500px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    
+}
+
+.box-sobre{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.desc-sobre {
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);	   
+    text-align: center;
+    width: 250px;  
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.desc-sobre span {
+    border-radius: 8px;
+    background-color: rgba(8, 2, 0, 0.068);
+    height: 100px;
+    width: 150px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);    
+}
+
+.card-sobre {
+    width: 300px;
+    height: 450px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    animation: float 6s ease-in-out infinite;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.info-sobre {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nasc-sobre {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    gap: 10px;
+}
+
+.local-sobre{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    gap: 10px;
+}
+
+.formacao-sobre {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    gap: 10px;
+}
+
+.esp-sobre {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    gap: 10px;
 }
