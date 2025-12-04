@@ -20,10 +20,10 @@ html {
 }
 
 body {
-    background-color: #0f172a; 
+    background-color: #0f172a;
     line-height: 1.6;
     overflow-x: hidden;
-    color: var(--text);    
+    color: var(--text);
 }
 
 .grid-bg {
@@ -32,7 +32,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: 
+    background-image:
         linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
         linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
     background-size: 50px 50px;
@@ -42,33 +42,35 @@ body {
 
 .logo {
     font-size: 20px;
-    font-weight: bold;    
+    font-weight: bold;
     width: 200px;
     text-align: center;
 }
 
+
 .navbar {
     width: 100%;
-    height: 80px;
+    height: 50px;
     position: fixed;
-    display: flex;     
+    display: flex;
     align-items: center;
     gap: 70%;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);  
-    padding: 0px 20px; 
-    background-color:rgba(15, 23, 42, 0.9);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    padding: 0px 20px;
+    background-color: rgba(15, 23, 42, 0.9);
+    z-index: 1000;
 }
 
 .nav-link {
-    height: 80px;
+    height: 50px;
     width: 400px;
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);    
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.btn-nav {    
+.btn-nav {
     font-size: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
@@ -78,36 +80,36 @@ body {
 }
 
 .div-inicio {
-    display: flex;     
-    align-items: center;    
+    display: flex;
+    align-items: center;
     height: 100vh;
-    width: 1200px;    
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);  
+    width: 1200px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     text-align: center;
     gap: 100px;
-     
 }
 
 .inicio {
     max-width: 1200px;
-    height: 100vh;   
-    width: 100%; 
-    margin-left: auto; /* Define a margem esquerda automática */
-    margin-right: auto;  
+    height: 100vh;
+    width: 100%;
+    margin-left: auto;
+    /* Define a margem esquerda automática */
+    margin-right: auto;
     background-color: rgba(211, 211, 211, 0);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    
+
 }
 
 .titulo-inicio {
     width: 700px;
     height: 525px;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
-    
+
 }
 
 .titulo-inicio h1 {
@@ -128,8 +130,8 @@ body {
     justify-content: center;
     gap: 20px;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
-    width: 700px;	   
-    padding-top: 30px; 
+    width: 700px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -141,16 +143,16 @@ body {
     align-content: center;
     justify-content: center;
     font-size: 12px;
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);    
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
-.skill-span:hover{
+.skill-span:hover {
     background-color: rgb(8, 43, 241);
     transition: 0.5s;
-}   
+}
 
-.btn-inicio {  
-    padding-top: 50px; 
+.btn-inicio {
+    padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
     align-content: center;
@@ -164,10 +166,10 @@ body {
     width: 150px;
     font-size: 16px;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
-    border-radius: 10px;    
+    border-radius: 10px;
 }
 
-.btn-contato-inicio:hover{
+.btn-contato-inicio:hover {
     background-color: rgb(8, 43, 241);
     transition: 0.5s;
 }
@@ -177,10 +179,10 @@ body {
     width: 150px;
     font-size: 16px;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
-    border-radius: 10px;    
+    border-radius: 10px;
 }
 
-.btn-proj-inicio:hover{
+.btn-proj-inicio:hover {
     background-color: rgb(8, 43, 241);
     transition: 0.5s;
 }
@@ -193,15 +195,23 @@ body {
 }
 
 @keyframes float {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .card-inicio h1 {
     font-size: 25px;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
-    
+
 }
 
 .txt-card {
@@ -213,9 +223,9 @@ body {
 }
 
 .email-inicio {
-    display: flex;    
+    display: flex;
     height: 30px;
-    
+
 }
 
 .email {
@@ -235,7 +245,7 @@ body {
 }
 
 .tel-inicio {
-    display: flex;    
+    display: flex;
     height: 30px;
 }
 
@@ -257,10 +267,11 @@ body {
 
 .sobre {
     max-width: 1200px;
-    height: 100vh;   
-    width: 100vw; 
-    margin-left: auto; /* Define a margem esquerda automática */
-    margin-right: auto;   
+    height: 100vh;
+    width: 100vw;
+    margin-left: auto;
+    /* Define a margem esquerda automática */
+    margin-right: auto;
     background-color: rgba(211, 211, 211, 0);
     display: flex;
     flex-direction: column;
@@ -274,13 +285,13 @@ body {
     justify-content: center;
     text-align: center;
     margin-bottom: 30px;
-    
+
 }
 
 .container-sobre {
     display: flex;
     gap: 100px;
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);  
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
 
 }
 
@@ -288,19 +299,19 @@ body {
     width: 700px;
     height: 500px;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
-    
+
 }
 
-.box-sobre{
+.box-sobre {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
 .desc-sobre {
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);	   
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     text-align: center;
-    width: 250px;  
+    width: 250px;
     height: 100px;
     justify-content: center;
     align-content: center;
@@ -316,7 +327,7 @@ body {
     justify-content: center;
     text-align: center;
     font-size: 20px;
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);    
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 .card-sobre {
@@ -342,7 +353,7 @@ body {
     gap: 10px;
 }
 
-.local-sobre{
+.local-sobre {
     display: flex;
     font-size: 16px;
     align-items: center;
@@ -364,4 +375,189 @@ body {
     align-items: center;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
     gap: 10px;
+}
+
+.tecnologias {
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    max-width: 1200px;
+    height: 100vh;
+    margin-left: auto;
+    /* Define a margem esquerda automática */
+    margin-right: auto;
+    background-color: rgba(211, 211, 211, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+}
+
+.tec-titulo {
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.tec-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.tec-cards {
+    position: relative;
+    width: 256px;
+    height: 256px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+.tec-cards:hover .tec-flip {
+    transform: rotateY(180deg);
+
+}
+
+.tec-flip {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: .5s;
+}
+
+.tec-frente,
+.tec-tras {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    backface-visibility: hidden;
+}
+
+.tec-frente {
+    background-size: 100%;
+}
+
+.tec-tras {
+    background-color: hidden;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+
+.projetos {
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    max-width: 1200px;
+    height: 100vh;
+    margin-left: auto;
+    /* Define a margem esquerda automática */
+    margin-right: auto;
+    background-color: rgba(211, 211, 211, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+}
+
+.proj-titulo {
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.slideshow {
+    width: 1200px;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    transition: background-image 0.8s ease;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.info-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4rem;
+    max-width: 35%;
+}
+
+.info-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.carousel-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(25%, -7%);
+}
+
+.carousel {
+    position: relative;
+    width:70rem;
+    height:70rem;
+    border:1px dashed #eebe97;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+.arrow-controls {
+    position: absolute;
+    right: 12rem;
+    top: 90%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.arrow {
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+.das {
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    max-width: 1200px;
+    height: 100vh;
+    margin-left: auto;
+    /* Define a margem esquerda automática */
+    margin-right: auto;
+    background-color: rgba(211, 211, 211, 0);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
 }
