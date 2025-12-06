@@ -511,17 +511,6 @@ body {
     transform: translate(25%, -7%);
 }
 
-.carousel {
-    position: relative;
-    width:70rem;
-    height:70rem;
-    border:1px dashed #eebe97;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-  }
-
 .arrow-controls {
     position: absolute;
     right: 12rem;
@@ -547,17 +536,4 @@ body {
 
 .arrow:hover {
     background: rgba(255, 255, 255, 1);
-}
-
-.das {
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);
-    max-width: 1200px;
-    height: 100vh;
-    margin-left: auto;
-    /* Define a margem esquerda automática */
-    margin-right: auto;
-    background-color: rgba(211, 211, 211, 0);
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);
-    justify-content: center;
-    align-content: center;
 }
